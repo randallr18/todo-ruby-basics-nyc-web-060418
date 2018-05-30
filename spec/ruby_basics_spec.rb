@@ -1,7 +1,6 @@
 require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
-
 describe "ruby" do
 
   describe "#division" do
@@ -13,6 +12,7 @@ describe "ruby" do
     end
   end
 
+
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
       value = "Bob"
@@ -20,6 +20,7 @@ describe "ruby" do
       expect(assign_variable(value)).to eq(value)
     end
   end
+  
 
   describe '#argue' do
     it 'accepts an argument and return that argument as is' do
@@ -28,6 +29,8 @@ describe "ruby" do
       expect(argue(phrase)).to eq(phrase)
     end
   end
+  
+  def 
 
   describe '#greeting' do
     it 'takes two arguments' do
