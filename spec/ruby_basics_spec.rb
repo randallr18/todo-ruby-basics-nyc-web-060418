@@ -1,10 +1,6 @@
 require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
-def division (num1, num2)
-  return num1 / num2
-end
-
 describe "ruby" do
 
   describe "#division" do
@@ -16,9 +12,6 @@ describe "ruby" do
     end
   end
 
-def assign_variable (name)
-  return value = name
-end
 
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
