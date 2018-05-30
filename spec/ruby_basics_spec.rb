@@ -40,6 +40,7 @@ end
     end
   end
   
+  def 
 
   describe '#greeting' do
     it 'takes two arguments' do
