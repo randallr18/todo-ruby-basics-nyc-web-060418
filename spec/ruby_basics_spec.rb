@@ -21,9 +21,6 @@ describe "ruby" do
     end
   end
   
-  def argue (phrase)
-    return phrase
-  end
 
   describe '#argue' do
     it 'accepts an argument and return that argument as is' do
