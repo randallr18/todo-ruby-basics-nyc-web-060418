@@ -1,6 +1,9 @@
 require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
+def division (num1, num2)
+  return num1 / num2
+end
 
 describe "ruby" do
 
@@ -10,7 +13,6 @@ describe "ruby" do
       num2 = 7
 
       expect(division(num1,num2)).to eq(6)
-    
     end
   end
 
