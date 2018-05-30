@@ -10,6 +10,7 @@ describe "ruby" do
       num2 = 7
 
       expect(division(num1,num2)).to eq(6)
+    
     end
   end
 
