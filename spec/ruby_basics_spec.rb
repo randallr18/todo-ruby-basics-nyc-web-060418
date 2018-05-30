@@ -16,12 +16,20 @@ describe "ruby" do
     end
   end
 
+def assign_variable (name)
+  return value = name
+end
+
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
       value = "Bob"
 
       expect(assign_variable(value)).to eq(value)
     end
+  end
+  
+  def argue (phrase)
+    return phrase
   end
 
   describe '#argue' do
@@ -31,6 +39,7 @@ describe "ruby" do
       expect(argue(phrase)).to eq(phrase)
     end
   end
+  
 
   describe '#greeting' do
     it 'takes two arguments' do
